@@ -58,6 +58,7 @@ class HealthIcon extends FlxSprite
 			if(char.endsWith('-pixel')) {
 				antialiasing = false;
 			}
+			offset.y = (width - 150) / 2;
 		}
 	}
 
